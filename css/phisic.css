@@ -1,0 +1,134 @@
+@font-face {
+   font-family: "Roboto SLab";
+   src: url(../fonts/RobotoSlab-Bold.ttf);
+}
+
+body {
+   margin: 0;
+   background: #eee url(https://raw.githubusercontent.com/pusi-destroyer228/Fizik/a9d2dd13c32902fd336c8a3eec53735e117739d8/img/reddle-texture.png) repeat-x fixed bottom;
+}
+
+.g {
+   padding-top: 50px;
+   width: 500px;
+   padding-bottom: 10px;
+   border-bottom: solid 1px #ddd;
+   font-size: 30px;
+   color: #b12930;
+   margin: 0 auto;
+   text-align: center;
+}
+
+.f {
+   font-size: 18px;
+   color: #777;
+   text-align: center;
+}
+
+.menu {
+   width: 960px;
+   height: 50px;
+   position: absolute;
+   margin: 0;
+   background-color: #000;
+}
+
+.vit {
+   padding-left: 20px;
+   padding-top: 14px;
+   list-style: none;
+}
+
+.vit a{
+   padding-top: 10px;
+   font-family: Arial, Helvetica, sans-serif;
+   text-decoration: none;
+   color: #fff;
+}
+
+.zak {
+   padding-left: 20px;
+   padding-top: 14px;
+   list-style: none;
+}
+
+.zak a{
+   padding-top: 10px;
+   font-family: Arial, Helvetica, sans-serif;
+   text-decoration: none;
+   color: #fff;
+}
+
+.zak:hover a {
+   color: #b12930;
+}
+
+.vit:hover a {
+   color: #b12930;
+}
+
+.ul {
+   margin: 0;
+}
+
+.flex {
+   display: flex;
+}
+
+.wrapper {
+   padding-top: 30px;
+   background-color: #fff;
+   margin: 0 auto;
+   max-width: 960px;
+}
+
+.galileo {
+   padding-top: 100px;
+}
+
+.huina {
+   display: flex;
+}
+
+.huyna {
+   margin: 0;
+   position: relative;
+   padding-top: 100px;
+}
+
+.huyna img {
+   width: 960px;
+}
+
+.galileo p {
+   padding-right: 30px;
+   line-height: 1.4em;
+   padding-left: 30px;
+   font-family: sans-serif;
+   font-size: 18px;
+}
+
+.galileo p strong {
+   color: #000;
+}
+
+.galileo h1 {
+   color: #b12930;
+   text-align: center;
+   font-size: 40px;
+   font-family: "Roboto SLab";
+}
+
+.gali img{
+   height: 400px;
+}
+
+.gali {
+
+   border-right: solid 2px #ddd;
+   padding-right: 10px;
+}
+
+
+
+
