@@ -59,7 +59,11 @@ body {
    color: #fff;
 }
 
-.zak:hover a {
+.zak li {
+   color: #fff;
+}
+
+.zak:hover .ap {
    color: #b12930;
 }
 
@@ -123,8 +127,34 @@ body {
    height: 400px;
 }
 
-.gali {
+.galic img{
+   height: 300px;
+}
 
+.galica img{
+   height: 100px;
+}
+
+.galicu img{
+   height: 200px;
+}
+
+.gali {
+   border-right: solid 2px #ddd;
+   padding-right: 10px;
+}
+
+.galic {
+   border-right: solid 2px #ddd;
+   padding-right: 10px;
+}
+
+.galica {
+   border-right: solid 2px #ddd;
+   padding-right: 10px;
+}
+
+.galicu {
    border-right: solid 2px #ddd;
    padding-right: 10px;
 }
@@ -140,23 +170,33 @@ body {
 }
 
 .sub_menu {
-   width: 220px;
+   width: 240px;
    display: none;
    position: absolute;
    top: 15px;
    left: -1px;
    z-index: 1;
-   border-radius: 3px;
-   padding: 5ёpx 0 0 0;
-   top: 63px;
+   border-bottom-left-radius: 5px;
+   border-bottom-right-radius: 5px;
+   padding: 0px 0 0 0;
+   top: 58px;
    background-color: #000;
 }
 
 .sub_li {
+   cursor: pointer;
+   padding: 10px;
    list-style: none;
 }
 
+.sub_li:hover .menu_a {
+   color: #b12930;
+}
+
 .menu_a {
-   padding-left: 10px;
    list-style: none;
+}
+
+.mari {
+   padding-bottom: 10px;
 }
