@@ -27,15 +27,15 @@ body {
 
 .menu {
    width: 960px;
-   height: 50px;
    position: absolute;
    margin: 0;
    background-color: #000;
 }
 
 .vit {
+   padding-bottom: 20px;
    padding-left: 20px;
-   padding-top: 14px;
+   padding-top: 19px;
    list-style: none;
 }
 
@@ -48,12 +48,12 @@ body {
 
 .zak {
    padding-left: 20px;
-   padding-top: 14px;
+   padding-top: 20px;
+   padding-bottom: 20px;
    list-style: none;
 }
 
 .zak a{
-   padding-top: 10px;
    font-family: Arial, Helvetica, sans-serif;
    text-decoration: none;
    color: #fff;
@@ -129,6 +129,34 @@ body {
    padding-right: 10px;
 }
 
+.open {
+   position: relative;
+}
 
+.open:hover>.sub_menu {
+   display: block;
+   max-height: 1000px;
+   transition: 0.5s;
+}
 
+.sub_menu {
+   width: 220px;
+   display: none;
+   position: absolute;
+   top: 15px;
+   left: -1px;
+   z-index: 1;
+   border-radius: 3px;
+   padding: 5px 0 0 0;
+   top: 63px;
+   background-color: #000;
+}
 
+.sub_li {
+   list-style: none;
+}
+
+.menu_a {
+   padding-left: 10px;
+   list-style: none;
+}
